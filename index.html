@@ -16,7 +16,7 @@
 <meta property="og:locale" content="pt_BR">
 <link rel="icon" href="img/logo.png">
 <link href="https://fonts.cdnfonts.com/css/hatton" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Antic&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/estilo.css">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"AdvertisingAgency","name":"DP — Agência de Publicidade","description":"Agência de publicidade criativa em Pelotas/RS.","founder":[{"@type":"Person","name":"Dárcio"},{"@type":"Person","name":"Pâmela"}],"address":{"@type":"PostalAddress","addressLocality":"Pelotas","addressRegion":"RS","addressCountry":"BR"},"telephone":"+5553991548509","areaServed":"Pelotas e região"}
@@ -61,13 +61,11 @@
   </div>
 </section>
 
-<!-- Faixa marquee: serviços deslizando (pausa no hover) -->
-<div class="marquee" aria-hidden="true"><div class="marquee-track"><span>Branding <em>✦</em> Campanhas <em>✦</em> Social Media <em>✦</em> Tráfego Pago <em>✦</em> Sites <em>✦</em> Google Meu Negócio <em>✦</em> Produção de Conteúdo <em>✦</em> </span><span>Branding <em>✦</em> Campanhas <em>✦</em> Social Media <em>✦</em> Tráfego Pago <em>✦</em> Sites <em>✦</em> Google Meu Negócio <em>✦</em> Produção de Conteúdo <em>✦</em> </span></div></div>
 
 <section>
   <div class="container" style="display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center" id="sobre-home">
-    <div class="reveal-left" style="position:relative;aspect-ratio:1/1;border-radius:50%;background:radial-gradient(circle at 32% 28%,var(--roxo-claro),var(--roxo) 55%,var(--roxo-escuro));display:flex;align-items:center;justify-content:center;box-shadow:var(--sombra)">
-      <img src="img/logo.png" alt="DP" style="width:55%;border-radius:50%">
+    <div class="reveal-left sobre-circulo">
+      <img src="img/logo.png" alt="DP">
     </div>
     <div class="reveal-right">
       <span class="sec-tag">Sobre a DP</span>
@@ -88,7 +86,7 @@
       <article class="card card-escuro reveal delay-1"><div class="icone">💡</div><h3>Criatividade Inspiradora</h3><p>Ideias inovadoras e cativantes que fazem a sua marca se destacar em qualquer cenário.</p></article>
       <article class="card card-escuro reveal delay-2"><div class="icone">🤝</div><h3>Empatia com o Cliente</h3><p>O cliente no centro de tudo. Soluções personalizadas e impactantes, criadas a partir da sua realidade.</p></article>
       <article class="card card-escuro reveal delay-3"><div class="icone">⭐</div><h3>Excelência Sem Compromisso</h3><p>Cada projeto é único, autêntico e executado com perfeição — sem atalhos, sem meio-termo.</p></article>
-      <article class="card card-escuro reveal delay-4"><div class="icone">🔗</div><h3>Parcerias Duradouras</h3><p>Confiança, transparência e colaboração. <em style="color:var(--roxo)">"Trabalhando bem para trabalhar sempre."</em></p></article>
+      <article class="card card-escuro reveal delay-4"><div class="icone">🔗</div><h3>Parcerias Duradouras</h3><p>Confiança, transparência e colaboração. <em style="color:var(--roxo-claro)">"Trabalhando bem para trabalhar sempre."</em></p></article>
     </div>
   </div>
 </section>
@@ -119,19 +117,19 @@
     <span class="sec-tag">Portfólio</span>
     <h2 class="sec-title">Projetos que falam por nós</h2>
     <p class="sec-sub">Uma amostra do que criamos para marcas de Pelotas e região.</p>
-    <div class="portfolio-grid">
-      <div class="port-item reveal delay-1">
-        <div class="port-visual mock mock-cafe"><div class="selo">CA</div><div class="nome">Café Aurora</div><div class="paleta"><i style="background:#D9A05B"></i><i style="background:#2B1D12"></i><i style="background:#F4E9DC"></i></div></div>
-        <div class="port-info"><span>Branding</span><h3>Identidade Visual — Café Aurora</h3></div>
-      </div>
-      <div class="port-item reveal delay-2">
-        <div class="port-visual mock mock-trafego"><span class="lbl">Retorno em anúncios</span><span class="roas">+312% ROAS</span><div class="barras"><i style="height:22%"></i><i style="height:38%"></i><i style="height:30%"></i><i style="height:55%"></i><i style="height:70%"></i><i style="height:100%"></i></div></div>
-        <div class="port-info"><span>Tráfego Pago</span><h3>Performance — E-commerce Regional</h3></div>
-      </div>
-      <div class="port-item reveal delay-3">
-        <div class="port-visual mock mock-rebrand"><div class="antes"><small>Antes</small><b>Bistrô Sul</b></div><div class="depois"><small>Depois</small><b>BISTRÔ SUL</b></div></div>
-        <div class="port-info"><span>Rebranding</span><h3>Rebranding — Bistrô Sul</h3></div>
-      </div>
+    <div class="cases-grid">
+      <a class="case-item reveal delay-1" href="https://carlosreformas.dpagenciadepublicidade.workers.dev/" target="_blank" rel="noopener">
+        <div class="case-browser"><span class="dots"><i></i><i></i><i></i></span><span class="case-url">carlosreformas.dpagenciadepublicidade.workers.dev</span></div>
+        <div class="case-body"><span class="case-tag">Site institucional</span><h3>Carlos Reformas</h3><p>Site profissional para empresa de reformas: serviços, portfólio e orçamento direto no WhatsApp.</p><span class="case-play">Ver site funcionando</span></div>
+      </a>
+      <a class="case-item reveal delay-2" href="https://aguadafontepocos.dpagenciadepublicidade.workers.dev/" target="_blank" rel="noopener">
+        <div class="case-browser"><span class="dots"><i></i><i></i><i></i></span><span class="case-url">aguadafontepocos.dpagenciadepublicidade.workers.dev</span></div>
+        <div class="case-body"><span class="case-tag">Site + SEO local</span><h3>Água da Fonte Poços Artesianos</h3><p>Perfuração de poços em Pelotas: site com SEO local, avaliações do Google e CTAs de WhatsApp.</p><span class="case-play">Ver site funcionando</span></div>
+      </a>
+      <a class="case-item reveal delay-3" href="https://psicologaannacarolina.com.br/" target="_blank" rel="noopener">
+        <div class="case-browser"><span class="dots"><i></i><i></i><i></i></span><span class="case-url">psicologaannacarolina.com.br</span></div>
+        <div class="case-body"><span class="case-tag">Saúde · Marca pessoal</span><h3>Psicóloga Anna Carolina</h3><p>Site de marca pessoal para captação de pacientes: copy emocional, SEO e agendamento via WhatsApp.</p><span class="case-play">Ver site funcionando</span></div>
+      </a>
     </div>
     <div style="text-align:center;margin-top:44px;display:flex;gap:16px;justify-content:center;flex-wrap:wrap" class="reveal"><a href="galeria.html#cases" class="btn btn-roxo">Ver sites no ar (cases reais)</a><a href="galeria.html" class="btn btn-preto">Ver portfólio completo</a></div>
   </div>
@@ -140,7 +138,7 @@
 <section class="fundo-preto" id="visao">
   <div class="container" style="text-align:center;max-width:860px">
     <span class="sec-tag">Nossa Visão</span>
-    <blockquote class="reveal" style="font-size:clamp(1.4rem,3.2vw,2.2rem);font-weight:800;line-height:1.4;margin:30px 0">Ser a agência <em style="font-style:normal;color:var(--roxo)">líder</em> e a <em style="font-style:normal;color:var(--roxo)">primeira escolha</em> de clientes que buscam campanhas memoráveis e parcerias autênticas.</blockquote>
+    <blockquote class="reveal" style="font-size:clamp(1.4rem,3.2vw,2.2rem);font-weight:800;line-height:1.4;margin:30px 0">Ser a agência <em style="font-style:normal;color:var(--roxo-claro)">líder</em> e a <em style="font-style:normal;color:var(--roxo-claro)">primeira escolha</em> de clientes que buscam campanhas memoráveis e parcerias autênticas.</blockquote>
     <p class="reveal delay-1" style="color:rgba(255,255,255,.68);font-size:1.08rem">Inovando sempre — sem nunca abrir mão da qualidade que nos trouxe até aqui.</p>
   </div>
 </section>

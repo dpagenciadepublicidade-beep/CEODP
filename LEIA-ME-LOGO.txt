@@ -1,0 +1,5 @@
+IMPORTANTE: o arquivo logo.png desta pasta e um PLACEHOLDER (recriacao aproximada).
+Substitua ele pela SUA logo nova (o print roxo com o 'dp' artistico):
+1. Salve o print como PNG com o nome exato: logo.png
+2. Cole aqui em img/ substituindo o atual. Nada mais precisa mudar.
+(logo-antiga.png e a logo anterior, guardada como backup)
